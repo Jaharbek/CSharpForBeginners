@@ -10,6 +10,7 @@ namespace ConsoleApp
             Console.OutputEncoding = Encoding.UTF8;
 
             int[] numbers = new int[10];
+
             Random random = new Random();
 
             for (int i = 0; i < numbers.Length; i++)
