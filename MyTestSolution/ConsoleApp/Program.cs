@@ -15,9 +15,8 @@ namespace ConsoleApp
             for (int i = 0; i < numbers.Length; i++)
             {
                 numbers[i] = random.Next();
-                Console.Write(numbers[i] + "\t");
+                Console.WriteLine(numbers[i]);
             }
-            Console.WriteLine();
         }   
     }
 }
